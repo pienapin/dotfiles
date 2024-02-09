@@ -1,6 +1,6 @@
 configuration {
 	modi:				"drun";
-	font:				"Rubik 10";
+	font:				"scienerdtifica 10";
 	display-drun: 			"";
 	sidebar-mode: 			false;
 }

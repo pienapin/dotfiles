@@ -1,0 +1,7 @@
+#! /bin/sh
+
+wid=$1
+wm_name=$(xprop -id $wid | grep -oP '_NET_WM_NAME\(UTF8_STRING\) = "\K[^"]*')
+if [[ $wm_name == *"(DEBUG)"* ]]; then
+	echo "state=floating"
+fi
